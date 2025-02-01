@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "1072679004813",
+    "firebase_url": "https://instagram-practice-833e0-default-rtdb.firebaseio.com",
+    "project_id": "instagram-practice-833e0",
+    "storage_bucket": "instagram-practice-833e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072679004813:android:c83f54c66f3fa86ca550c4",
+        "android_client_info": {
+          "package_name": "com.example.fcmpushnotificationshttpv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAae30rOkWi32EF0dLVXsNMBn2DU2ZURI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072679004813:android:ca84b03a199ab44da550c4",
+        "android_client_info": {
+          "package_name": "com.example.sendandreceivenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAae30rOkWi32EF0dLVXsNMBn2DU2ZURI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072679004813:android:078342b2acb65cf4a550c4",
+        "android_client_info": {
+          "package_name": "com.example.webrtccalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAae30rOkWi32EF0dLVXsNMBn2DU2ZURI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072679004813:android:c895692b15c1b7a0a550c4",
+        "android_client_info": {
+          "package_name": "com.example.whatsupcloneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072679004813-nttu58ojfus12qqo1nv4vjfrdcodrqvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsupcloneapp",
+            "certificate_hash": "3e8709120fb9eb0181c06cabd1e2b2d59b4e177f"
+          }
+        },
+        {
+          "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAae30rOkWi32EF0dLVXsNMBn2DU2ZURI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072679004813-0ihko6tth9rlgl49simcoaaan78j3kup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

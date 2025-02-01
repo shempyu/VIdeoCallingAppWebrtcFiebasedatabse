@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirebaseVideoCall</string>
+    <string name="decline_call">Decline Call</string>
+</resources>

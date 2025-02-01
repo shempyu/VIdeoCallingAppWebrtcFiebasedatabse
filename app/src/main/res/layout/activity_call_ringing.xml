@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CallRingingActivity">
+    <!-- Title Text for Incoming Call -->
+
+    <!-- Subtitle for Caller Name -->
+
+    <!-- Accept Button -->
+
+    <!-- Decline Button -->
+
+    <TextView
+        android:id="@+id/incomingCallTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomingCallTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="118dp"
+        android:text="Incoming Call"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/incomingCallTitle"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:text="incomingCallTitle"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <!-- Accept Button Label -->
+
+    <!-- Decline Button Label -->
+
+    <ImageButton
+        android:id="@+id/acceptButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/incomingCallTile"
+        android:layout_alignStart="@+id/incomingCallTile"
+        android:layout_alignEnd="@+id/incomingCallTile"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/call_accept_background"
+        android:contentDescription="Accept Call"
+        android:src="@drawable/ic_call_accept" />
+
+    <ImageButton
+        android:id="@+id/declineButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="-4dp"
+        android:background="@drawable/call_decline_background"
+        android:contentDescription="@string/decline_call"
+        android:src="@drawable/ic_call_decline" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/acceptButton"
+        android:layout_alignStart="@+id/acceptButton"
+        android:layout_alignEnd="@+id/acceptButton"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-10dp"
+        android:text="Accept"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/declineButton"
+        android:layout_alignStart="@+id/declineButton"
+        android:layout_alignEnd="@+id/declineButton"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="Decline"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</RelativeLayout>
